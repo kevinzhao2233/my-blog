@@ -3,3 +3,5 @@ dist
 build
 **/*.d.ts
 **/*.md
+script
+config
