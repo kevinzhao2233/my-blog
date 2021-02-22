@@ -22,7 +22,7 @@ module.exports = {
     {
       files: ['*.ts', '*.tsx'],
       rules: {
-        '@typescript-eslint/no-unused-vars': [2, { args: 'none' }],
+        '@typescript-eslint/no-unused-vars': [0, { args: 'none' }],
         'no-unused-expressions': 'off',
         '@typescript-eslint/no-unused-expressions': 2,
       },
@@ -32,7 +32,7 @@ module.exports = {
     'react/jsx-one-expression-per-line': 0,
     'react/prop-types': 0,
     'react/forbid-prop-types': 0,
-    'react/jsx-indent': 0,
+    'react/jsx-indent': [2, 2, { checkAttributes: true, indentLogicalExpressions: true }],
     'react/jsx-wrap-multilines': ['error', { declaration: false, assignment: false }],
     'react/jsx-filename-extension': 0,
     'react/state-in-constructor': 0,
@@ -76,6 +76,7 @@ module.exports = {
     'consistent-return': 0, // TODO: remove later
     'no-param-reassign': 0, // TODO: remove later
     'no-underscore-dangle': 0,
+    'no-unused-vars': 0,
     // for (let i = 0; i < len; i++)
     'no-plusplus': 0,
     // https://eslint.org/docs/rules/no-continue
