@@ -152,6 +152,14 @@ module.exports = function (webpackEnv) {
           options: {
             sourceMap: true,
           },
+        },
+        {
+          loader: 'sass-resources-loader',
+          options: {
+            resources: [
+              path.resolve(__dirname, '../src/styles/variable.scss')
+            ],
+          }
         }
       );
     }

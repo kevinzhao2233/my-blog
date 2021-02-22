@@ -138,6 +138,7 @@ body {
 }
 
 body {
+  color: #111029;
   font: 16px/1 "PingFang SC", '等距更纱黑体 SC', "Microsoft YaHei", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -320,4 +321,5 @@ a:active {
 
 .cursor-p {
   cursor: pointer;
+  user-select: none;
 }
