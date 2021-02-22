@@ -7,21 +7,23 @@ import {
   Redirect,
   useLocation,
 } from 'react-router-dom';
-import Home from './pages/home/index';
-import About from './pages/about/index';
+import HomePage from './pages/home/index';
+import AboutPage from './pages/about/index';
 import ErrorPage from './pages/error/index';
 
 function App() {
   return (
     <Router>
       <div className="App">
-
         <Switch>
           <Route exact path="/">
-            <Home />
+            <HomePage />
+          </Route>
+          <Route exact path="/home">
+            <Redirect to="/" />
           </Route>
           <Route exact path="/about">
-            <About />
+            <AboutPage />
           </Route>
           <Route path="*">
             <ErrorPage />

@@ -317,3 +317,7 @@ a:active {
 .round {
   border-radius: 100%;
 }
+
+.cursor-p {
+  cursor: pointer;
+}
