@@ -77,6 +77,7 @@ module.exports = {
     'consistent-return': 0, // TODO: remove later
     'no-param-reassign': 0, // TODO: remove later
     'no-underscore-dangle': 0,
+    'class-methods-use-this': 0,
     'no-unused-vars': 0,
     // for (let i = 0; i < len; i++)
     'no-plusplus': 0,

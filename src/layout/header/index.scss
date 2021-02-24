@@ -32,46 +32,5 @@
   .extra {
     position: relative;
     $btn-width: 40px;
-
-    .extra-btn {
-      position: relative;
-      width: $btn-width;
-      height: 14px;
-
-      .line {
-        position: absolute;
-        height: 2px;
-        background-color: $clr-font;
-        border-radius: 10px;
-
-        &.btn-tl {
-          top: 0;
-          left: 0;
-          width: $btn-width / 2 + 10px;
-          transform-origin: left;
-        }
-
-        &.btn-tr {
-          top: 0;
-          right: 0;
-          width: $btn-width / 2 + 10px;
-          transform-origin: right;
-        }
-
-        &.btn-bl {
-          bottom: 0;
-          left: 0;
-          width: $btn-width / 2 + 10px;
-          transform-origin: left;
-        }
-
-        &.btn-br {
-          right: 0;
-          bottom: 0;
-          width: $btn-width / 2 + 10px;
-          transform-origin: right;
-        }
-      }
-    }
   }
 }
