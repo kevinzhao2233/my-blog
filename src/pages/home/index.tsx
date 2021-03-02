@@ -1,10 +1,14 @@
 import React from 'react';
+import './index.scss';
 import Header from '../../layout/header';
+import SayHi from './components/sayHi/index';
+import Plate from './components/plate/index';
 
 const Home: React.FC = () => (
   <div className="page-home">
     <Header />
-    <h1>My Website Heading</h1>
+    <SayHi />
+    <Plate />
   </div>
 );
 
