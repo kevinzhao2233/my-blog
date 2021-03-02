@@ -44,8 +44,12 @@
     }
 
     .desc {
+      width: 300px;
       height: 150px;
+      overflow: hidden;
       font-size: $clr-font-gray;
+      line-height: 1.7;
+      text-align: center;
     }
 
     .btn {
